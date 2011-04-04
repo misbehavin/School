@@ -4,7 +4,7 @@
 #    #Enable Interupts
 #    movi    r10,  PIE
 #    wrctl   ctl0, r10
-#    movia   r10,  TIMER_IRQ
+#    movi    r10,  TIMER_IRQ
 #    wrctl   ctl3, r10
 #    
 #    #Set Timer Period and Start it
@@ -27,8 +27,8 @@ loop:
     
     call UPDATE_DAC
 br loop
-    
 #//End Emulator Code--------------------
+
 END:
   br END
 
