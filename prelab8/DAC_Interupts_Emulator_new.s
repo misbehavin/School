@@ -131,7 +131,7 @@ SKIPCALC:
 #//------------------------------------
   
 .data
-DAC_COUNT:   .word   0x00005000
+DAC_COUNT:   .word   0x00000000
 TIMER_FREQ:  .word   0x00000000
 TIMER_PIO:   .word   0x00000820
 UART_PIO:    .word   0x00000000
